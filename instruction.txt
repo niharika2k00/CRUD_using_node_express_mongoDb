@@ -15,3 +15,7 @@
 7) npm install                   ------> for node modules
 8) app.listen()                  ------> checking whether the setup is running or not 
 9) npm i nodemon                 ------> tool for automatic restarting the server after every changes
+
+
+
+HAPPY CODING !!
