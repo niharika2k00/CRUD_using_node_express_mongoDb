@@ -1,0 +1,17 @@
+
+
+
+
+//  *********************************          DIRECTIONS         ****************************************** \\
+
+
+1) npm init                      ---->  for the package.json
+2) npm -v                        ---->  check node version
+3) npm install other modules (express,mongoose,...)
+4) add "type": "module", inside the script in the package.json for convertiong into ECMASCRIPT format
+5) make the config directory     ----->  info of the MONGO DB 
+
+6) add the .env file by own      ------> Contains PORT, NODE_ENV, MONGODB_URI
+7) npm install                   ------> for node modules
+8) app.listen()                  ------> checking whether the setup is running or not 
+9) npm i nodemon                 ------> tool for automatic restarting the server after every changes
