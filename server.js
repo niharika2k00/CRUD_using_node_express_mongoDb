@@ -53,7 +53,7 @@ app.use('/choco', Choco_routes);
 
 
 
-
+// PORT = 4000 in the env
 const port = process.env.PORT || 4000
 app.listen(port, console.log(`Server Connected in ${port} for ${process.env.NODE_ENV}`));
 
