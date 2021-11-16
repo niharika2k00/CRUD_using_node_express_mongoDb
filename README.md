@@ -45,7 +45,7 @@ These things must be installed in your system.
    npm run server
      ```   
 
- - Test routes using  **Postman**  
+ - Testing routes using  **Postman**  
   
 
 </br></br>

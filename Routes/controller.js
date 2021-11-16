@@ -1,13 +1,7 @@
 
-
 import express from 'express';
 import asyncHandler from 'express-async-handler';
 import CHOCO from '../Models/Chocolate_model.js';
-
-
-
-
-
 
 
 // @desc       Fetch all the Chocolates
@@ -102,8 +96,6 @@ const delete_Chocolate = asyncHandler(async (req, res) => {           /* asyncHa
     await CHOCO.findByIdAndRemove(ID);
     res.send('Chocolate Deleted Successfullly');
 });
-
-
 
 
 

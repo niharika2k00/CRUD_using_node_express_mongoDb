@@ -11,8 +11,6 @@ import ConnectDB from './config/DB.js';
 import Choco_routes from './Routes/Choco_routes.js';
 
 
-
-
 dotenv.config();
 ConnectDB();
 const app = express();
@@ -25,7 +23,7 @@ console.log("Yeaahhh Running .........");
 
 // listen the connections on the specified host and port
 app.listen(3000, function () {
-    console.log('listening on 3000')
+    console.log('listening on backend server at port 4000');
 })
 
 // app.get(endpoint, callback)
@@ -46,11 +44,10 @@ app.get('/', (req, res) => {
     }
 }) */
 
-// *************************     Replace the above way we can also write using app.use()     ******************************
+// *************************     Replacing previous way we can also write using app.use()     ******************************
 
 // SYNTAX: app.use(path, callback)
 app.use('/choco', Choco_routes);
-
 
 
 // PORT = 4000 in the env
